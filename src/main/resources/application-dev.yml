@@ -9,8 +9,10 @@ eureka:
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://admin:codedecode@atlas-cluster.mqdj7js.mongodb.net/?retryWrites=true&w=majority # mongodb://localhost:27017/orderdb
-      host: atlas-cluster.mqdj7js.mongodb.net
+      #uri: mongodb+srv://admin:codedecode@atlas-cluster.mqdj7js.mongodb.net/?retryWrites=true&w=majority # mongodb://localhost:27017/orderdb
+      uri: mongodb+srv://admin:Pass1234@atlas-cluster.yxh16pi.mongodb.net/?retryWrites=true&w=majority
+      #host: atlas-cluster.mqdj7js.mongodb.net
+      host: atlas-cluster.yxh16pi.mongodb.net
       port: 27017
       database: orderdb
       repositories:
